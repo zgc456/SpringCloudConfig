@@ -1,0 +1,11 @@
+
+dependencies {
+
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.cloud:spring-cloud-starter-eureka')
+//	compile('org.springframework.cloud:spring-cloud-starter-eureka-server')
+    runtime('mysql:mysql-connector-java')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('org.springframework.cloud:spring-cloud-config-server')
+
+}
